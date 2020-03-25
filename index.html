@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+     <meta charset="utf-8">
+     <title></title>
+
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+
+     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+     <link rel="stylesheet" href="styles.css">
+
+
+  </head>
+  <body>
+       <div class="form-style-6">
+        <h1>Sprawdź poprawność NIP/PESEL</h1>
+           <form>
+		   	<ul>
+		         <li>
+			            <input type="radio" name="name" id="one" checked />
+			            <label for="one">NIP</label>
+			
+			           <div class="check"></div>
+		        </li>
+		
+		        <li>
+			          <input type="radio" name="name" id="two" />
+			          <label for="two">PESEL</label>
+			
+			          <div class="check"></div>
+		        </li>
+	        </ul>
+                   <input type="text" id="field1" placeholder="Wpisz numer" />
+                   <input type="button" id="btn-1" value="Sprawdź" />
+           </form>
+		   
+		   <div id="output">
+		   
+		   </div>
+       </div>
+
+
+
+
+
+       <script src="validator.js"></script>
+  </body>
+
+</html>
